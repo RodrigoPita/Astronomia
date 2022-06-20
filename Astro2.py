@@ -11,7 +11,7 @@ Dves = 530
 Rcer = 480
 dcers = 2.8
 
-#Cinturão de Kuiper
+#Cinturï¿½o de Kuiper
 dkuis = 55
 
 #Cometas
@@ -21,81 +21,81 @@ Dcom = 50
 dpoors = 30000
 dloors = 80000
 
-print "Astronomia - Sistema Solar"
-print ""
-print ""
+print( "Astronomia - Sistema Solar" )
+print()
+print()
 while x != "Fim":
-    print "0 - Cinturão de Asteróides"
-    print "1 - Cinturão de Kuiper"
-    print "2 - Nuvem de Oort"
-    print ""
-    a = raw_input("Digite o número referente ao lugar: ")
-    print ""
-    print ""
+    print( "0 - Cinturï¿½o de Asterï¿½ides" )
+    print( "1 - Cinturï¿½o de Kuiper" )
+    print( "2 - Nuvem de Oort" )
+    print()
+    a = input("Digite o nï¿½mero referente ao lugar: ")
+    print()
+    print()
     if a == "0":
-        print "CINTURÃO DE ASTERÓIDES"
-        print ""
-        print "- A primeira detecção foi em 1801, de Ceres (Agora já classificado como planeta anão) entre Marte e Júpiter"
-        print "- Contém mais de meio milhão de asteróides"
-        print "- A teoria mais aceita é que esses pedaços de matéria são restos da formação planetária que nunca chegaram a formar um planeta"
-        print "- Os asteróides não estão em distribuição uniforme no Cinturão, alguns estão agrupados e parecem ter uma relação física (São chamados de famílias)"
-        print "- Dos milhares de objetos presentes, Vesta é o segundo maior, com um diâmetro de ", Dves, "km"
-        print "- Ceres é o maior objeto do Cinturão de Asteróides e o único planeta anão do SS interno"
-        print "     - Tem um raio de ", Rcer, "km"
-        print "     - Está localizado a ", dcers, "UA do Sol"
-        print "     - Tem um dos menores dias do SS"       
-        print ""
-        x = raw_input("Para continuar, aperte 'enter', se quiser terminar, digite 'Fim': ")
-        print ""
+        print( "CINTURï¿½O DE ASTERï¿½IDES" )
+        print()
+        print( "- A primeira detecï¿½ï¿½o foi em 1801, de Ceres (Agora jï¿½ classificado como planeta anï¿½o) entre Marte e Jï¿½piter" )
+        print( "- Contï¿½m mais de meio milhï¿½o de asterï¿½ides" )
+        print( "- A teoria mais aceita ï¿½ que esses pedaï¿½os de matï¿½ria sï¿½o restos da formaï¿½ï¿½o planetï¿½ria que nunca chegaram a formar um planeta" )
+        print( "- Os asterï¿½ides nï¿½o estï¿½o em distribuiï¿½ï¿½o uniforme no Cinturï¿½o, alguns estï¿½o agrupados e parecem ter uma relaï¿½ï¿½o fï¿½sica (Sï¿½o chamados de famï¿½lias)" )
+        print( "- Dos milhares de objetos presentes, Vesta ï¿½ o segundo maior, com um diï¿½metro de ", Dves, "km" )
+        print( "- Ceres ï¿½ o maior objeto do Cinturï¿½o de Asterï¿½ides e o ï¿½nico planeta anï¿½o do SS interno" )
+        print( "     - Tem um raio de ", Rcer, "km" )
+        print( "     - Estï¿½ localizado a ", dcers, "UA do Sol" )
+        print( "     - Tem um dos menores dias do SS" )
+        print()
+        x = input("Para continuar, aperte 'enter', se quiser terminar, digite 'Fim': ")
+        print()
     elif a == "1":
-        print "CINTURÃO DE KUIPER"
-        print ""
-        print "- Região em forma de disco repleto de objetos congelados"
-        print "- Estende-se desde a órbita de Netuno até ", dkuis, "UA"
-        print "- Estima-se que abriga mais de 1*10^9 cometas"
-        print "- Os objetos do CK são remanescentes da formação do SS há cerca de 4,6 bilhões de anos"
-        print "- Um planeta anão (De acordo com a União Astronômica Internacional) é um corpo que:"
-        print "     - Orbita o Sol"
-        print "     - Tem massa suficiente para se tornar aproximadamente redondo"
-        print "     - Não limpou a vizinhança em torno de sua órbita (Diferença entre planetas anões e planetas)"
-        print "     - Não é uma lua"
-        print ""
-        print "- Tabela do Planetas anões:"
-        print "     - Plutão *"
-        print "     - Ceres"
-        print "     - Makemake"
-        print "     - Haumea"
-        print "     - Eris"
-        print "     - Sedna"
-        print " - Planetas anões além de Netuno são chamados Plutóides, Ceres não está nessa categoria"
-        print ""
-        print "* Plutão é o maior planeta anão conhecido"
-        print ""
-        print "- Cometas:"
-        print "     - Compostos de gelo e poeira, podendo conter rochas e metais"
-        print "     - Diâmetro de até ", Dcom, "km"
-        print "     - Não são visíveis quando estão longe do Sol"
-        print "     - A 5 UA, começam a evaporar-se formando uma bola de vapor ao seu redor (coma ou cabeleira)"
-        print "     - A 2 UA, a pressão da radiação e o vento solar empurram os gases e a poeira da cabeleira, produzingo longas caudas"
-        print "     - A cauda sempre aponta no sentido contrário ao Sol (de gás - mais reta, de poeira - mais curva)"
-        print "     - A fina cauda azul é composta de gases, e a larga cauda branca, de partículas de pó microscópicas"
-        print ""
-        x = raw_input("Para continuar, aperte 'enter', se quiser terminar, digite 'Fim': ")
-        print ""
+        print( "CINTURï¿½O DE KUIPER" )
+        print()
+        print( "- Regiï¿½o em forma de disco repleto de objetos congelados" )
+        print( "- Estende-se desde a ï¿½rbita de Netuno atï¿½ ", dkuis, "UA" )
+        print( "- Estima-se que abriga mais de 1*10^9 cometas" )
+        print( "- Os objetos do CK sï¿½o remanescentes da formaï¿½ï¿½o do SS hï¿½ cerca de 4,6 bilhï¿½es de anos" )
+        print( "- Um planeta anï¿½o (De acordo com a Uniï¿½o Astronï¿½mica Internacional) ï¿½ um corpo que:" )
+        print( "     - Orbita o Sol" )
+        print( "     - Tem massa suficiente para se tornar aproximadamente redondo" )
+        print( "     - Nï¿½o limpou a vizinhanï¿½a em torno de sua ï¿½rbita (Diferenï¿½a entre planetas anï¿½es e planetas)" )
+        print( "     - Nï¿½o ï¿½ uma lua" )
+        print()
+        print( "- Tabela do Planetas anï¿½es:" )
+        print( "     - Plutï¿½o *" )
+        print( "     - Ceres" )
+        print( "     - Makemake" )
+        print( "     - Haumea" )
+        print( "     - Eris" )
+        print( "     - Sedna" )
+        print( " - Planetas anï¿½es alï¿½m de Netuno sï¿½o chamados Plutï¿½ides, Ceres nï¿½o estï¿½ nessa categoria" )
+        print()
+        print( "* Plutï¿½o ï¿½ o maior planeta anï¿½o conhecido" )
+        print()
+        print( "- Cometas:" )
+        print( "     - Compostos de gelo e poeira, podendo conter rochas e metais" )
+        print( "     - Diï¿½metro de atï¿½ ", Dcom, "km" )
+        print( "     - Nï¿½o sï¿½o visï¿½veis quando estï¿½o longe do Sol" )
+        print( "     - A 5 UA, comeï¿½am a evaporar-se formando uma bola de vapor ao seu redor (coma ou cabeleira)" )
+        print( "     - A 2 UA, a pressï¿½o da radiaï¿½ï¿½o e o vento solar empurram os gases e a poeira da cabeleira, produzingo longas caudas" )
+        print( "     - A cauda sempre aponta no sentido contrï¿½rio ao Sol (de gï¿½s - mais reta, de poeira - mais curva)" )
+        print( "     - A fina cauda azul ï¿½ composta de gases, e a larga cauda branca, de partï¿½culas de pï¿½ microscï¿½picas" )
+        print()
+        x = input("Para continuar, aperte 'enter', se quiser terminar, digite 'Fim': ")
+        print()
     elif a == "2":
-        print "NUVEM DE OORT"
-        print ""
-        print "- É teórica"
-        print "- Segundo Oort, existe uma imensa 'nuvem' de núcleos comentários orbitando (órbitas circulares) o Sol"
-        print "- Essas órbitas estão a distâncias que variam de ", dpoors, "UA a mais de ", dloors, "UA do Sol"
-        print "- Seriam mais de um trilhão de objetos, dos mais variados tamanhos"
-        print "- A ideia desta região foi primeiramente proposta para explicar a origem dos cometas que levam milhares de anos para orbitar o Sol(cometas de longo período)"
-        print ""
-        print "- Para se ter uma ideia das dimensões:"
-        print "     - Na sua velocidade atual de 1,5*10^6 km/dia, a nave espacial Voyager 1 não alcançará a Nuvem de Oort por cerca de 300 anos"
-        print "     - Levará cerca de mais 30 mil anos para ela chegar ao outro lado"
-        print ""
-        x = raw_input("Para continuar, aperte 'enter', se quiser terminar, digite 'Fim': ")
-        print ""
+        print( "NUVEM DE OORT" )
+        print()
+        print( "- ï¿½ teï¿½rica" )
+        print( "- Segundo Oort, existe uma imensa 'nuvem' de nï¿½cleos comentï¿½rios orbitando (ï¿½rbitas circulares) o Sol" )
+        print( "- Essas ï¿½rbitas estï¿½o a distï¿½ncias que variam de ", dpoors, "UA a mais de ", dloors, "UA do Sol" )
+        print( "- Seriam mais de um trilhï¿½o de objetos, dos mais variados tamanhos" )
+        print( "- A ideia desta regiï¿½o foi primeiramente proposta para explicar a origem dos cometas que levam milhares de anos para orbitar o Sol(cometas de longo perï¿½odo)" )
+        print()
+        print( "- Para se ter uma ideia das dimensï¿½es:" )
+        print( "     - Na sua velocidade atual de 1,5*10^6 km/dia, a nave espacial Voyager 1 nï¿½o alcanï¿½arï¿½ a Nuvem de Oort por cerca de 300 anos" )
+        print( "     - Levarï¿½ cerca de mais 30 mil anos para ela chegar ao outro lado" )
+        print()
+        x = input("Para continuar, aperte 'enter', se quiser terminar, digite 'Fim': ")
+        print()
     else:
         x = 0
